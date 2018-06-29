@@ -1,0 +1,14 @@
+
+== 启动simple-service-provider
+\simple-service-provider> mvn spring-boot:run  -Dserver.port=8082
+
+\simple-service-provider> mvn spring-boot:run  -Dserver.port=8082
+
+== 启动simple-host-route
+
+\simple-host-route> mvn spring-boot:run 
+
+浏览器输入http://localhost:8080/a/ ，将请求 http://localhost:8081,返回8081字符串
+
+浏览器输入 http://localhost:8080/b/，将请求 http://localhost:8082,返回8082字符串
+

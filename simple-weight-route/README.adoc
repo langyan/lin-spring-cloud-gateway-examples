@@ -1,0 +1,15 @@
+
+== 启动simple-service-provider
+\simple-service-provider> mvn spring-boot:run  -Dserver.port=8082
+
+\simple-service-provider> mvn spring-boot:run  -Dserver.port=8082
+
+== 启动simple-weight-route
+
+\simple-weight-route> mvn spring-boot:run 
+
+浏览器输入http://localhost:8080/test 
+95%机率显示v1
+5%机率显示v2
+
+

@@ -16,6 +16,7 @@
 
 	<modules>
 		<module>simple-host-route</module>
+		<module>simple-weight-route</module>
 		<module>simple-service-provider</module>
 	</modules>
 
